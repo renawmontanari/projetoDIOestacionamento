@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Estacionamento</title>
+</head>
+<body>
+    <!-- Header Content-->
+    <header>
+        <img src="./assets/img/logoDioPark.png">
+    </header>
+
+    <!-- Main Content-->
+    <main>
+        <section class="container">
+            <form class="group">
+                <input class="group__input"
+                    type="text" id="nome" 
+                    placeholder="Digite o nome do veiculo " 
+                    autocomplete="off" 
+                />
+                <input class="group__input"
+                    type="text" id="placa" 
+                    placeholder="Digite a placa do veiculo " 
+                    autocomplete="off" 
+                />
+
+                <button class="group__button" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+
+        <table class="table">
+            <thead class="table__thead">
+                <tr class="table__tr">
+                    <th class="table__th">Nome</th>
+                    <th class="table__th">Placa</th>
+                    <th class="table__th">Entrada</th>
+                    <th class="table__th">Ações</th>
+                </tr>
+            </thead>
+            <tbody class="table__tbody" id="patio"></tbody>
+        </table>
+
+    </main> 
+
+    <!-- Footer Content-->
+    <footer></footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
